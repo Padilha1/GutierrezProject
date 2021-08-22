@@ -158,10 +158,12 @@ nav {
     .produtos .products li img {
       width: 3em;
     }
-    
+    .produtos .consulte {
+      font-size: 1.5em;
+    }
     #contact {
       padding: 50px 0;
-      background-image: url(/imgs/banner2.jpg);
+      background-image: url(/imgs/bg-location.jpg);
       background-size: cover;
     }
     .contact .container .head {
@@ -217,6 +219,16 @@ nav {
     }
   }
 
+  @media screen and (max-height: 667px){
+    .servicos  .bg-servicos li {
+      padding: 0.3em;
+    }
+
+    .produtos .consulte {
+      font-size: 1em;
+      padding: 0;
+    }
+  }
 
   
 /***************************
@@ -350,7 +362,7 @@ nav {
 ***************************/
 .contact {
   padding: 100px 0;
-  background-image: url(/imgs/banner2.jpg);
+  background-image: url(/imgs/bg-location.jpg);
   background-size: contain;
 }
 .contact .container h3 {
