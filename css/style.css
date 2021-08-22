@@ -230,6 +230,11 @@ nav {
     }
   }
 
+  @media screen and (max-width:1024px){
+    .produtos .products img {
+      width: 5em;
+    }
+  }
   
 /***************************
         HOME
@@ -332,7 +337,7 @@ nav {
   
 }
 .produtos li{
-  font-size: 2rem;
+  font-size: 2em;
   padding: 0.7em 1em;
   width: 20em;
 }
